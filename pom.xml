@@ -11,7 +11,7 @@
 
 <properties>
     <!-- https://mvnrepository.com/artifact/org.keycloak/keycloak-parent -->
-    <keycloak.version>11.0.3</keycloak.version>
+    <keycloak.version>20.0.2</keycloak.version>
 </properties>
 
 <dependencies>
@@ -48,7 +48,7 @@
     <dependency>
         <groupId>com.squareup.okhttp3</groupId>
         <artifactId>okhttp</artifactId>
-        <version>4.9.0</version>
+        <version>3.14.9</version>
     </dependency>
     <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>

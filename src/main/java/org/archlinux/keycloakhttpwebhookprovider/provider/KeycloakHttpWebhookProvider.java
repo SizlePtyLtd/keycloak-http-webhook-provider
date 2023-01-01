@@ -43,7 +43,7 @@ public class KeycloakHttpWebhookProvider implements EventListenerProvider {
             request_builder.addHeader("Authorization", credential);
         }
 
-        Request request = request_builder.post(RequestBody.create(jsonString, JSON)).build();
+        Request request = request_builder.post(RequestBody.create(JSON, jsonString)).build();
 
         try (Response response = httpClient.newCall(request).execute()) {
             if (!response.isSuccessful()) {
